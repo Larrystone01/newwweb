@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: url(img/Professionnal\ office\ decor.jpeg) center center no-repeat;
+  background-size: cover;
+  color: white;
+  /* position: absolute; */
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.active {
+  padding: 5px 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 5px;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding: 0 15px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+.tel {
+  padding: 0 15px;
+}
+
+.names {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  height: 100vh;
+  position: relative;
+  top: 100px;
+  left: -32px;
+}
+
+.firstName {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.lastName {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.stack {
+  font-size: 1.5rem;
+  letter-spacing: 10px;
+}
+
+.home-links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid grey;
+  border-radius: 15px;
+}
+
+.home-links a:hover {
+  color: grey;
+}
+
+.social-icons a {
+  padding: 0.2rem;
+  font-size: 0.9rem;
+}
