@@ -21,7 +21,7 @@ body {
 
 .active {
   padding: 5px 5px;
-  border: 1px solid grey;
+  border: 0.9px solid grey;
   border-radius: 5px;
 }
 
