@@ -105,6 +105,7 @@ a {
 }
 
 /* About Styling */
+
 #about {
   background: url(img/aboutbackg.jpeg) no-repeat top center/cover;
 }
@@ -163,6 +164,9 @@ a {
 }
 
 .resume-cover-wrap {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
   padding: 30px;
 }
 .lead-heading {
@@ -177,8 +181,17 @@ a {
 .the-skills {
   display: flex;
   /* flex-direction: column; */
-  gap: 1.5rem;
+  /* gap: 1.5rem; */
+  justify-content: space-between;
   line-height: 1.5;
+}
+
+.p {
+  width: 80px;
+}
+
+.q {
+  width: 53px;
 }
 
 .image-like {
@@ -212,7 +225,7 @@ a {
 
 /* Slider Styling */
 .slider-container {
-  width: 300px;
+  width: 150px;
   height: 2px;
   background: #ddd;
   border-radius: 5px;
@@ -228,4 +241,85 @@ a {
   position: absolute;
   top: -7px;
   right: 0;
+}
+.a {
+  right: 20px;
+}
+.b {
+  right: 25px;
+}
+.c {
+  right: 15px;
+}
+.d {
+  right: 10px;
+}
+.e {
+  right: 5px;
+}
+.f {
+  right: 2px;
+}
+.g {
+  right: 40px;
+}
+.h {
+  right: 50%;
+}
+
+.experience {
+  display: flex;
+  gap: 1.5rem;
+  height: 62px;
+}
+
+.title-pos {
+  position: relative;
+}
+.title-pos h3 {
+  text-transform: uppercase;
+}
+
+.title-pos p {
+  text-transform: capitalize;
+}
+
+.date {
+  background: #007fff;
+  border-radius: 50%;
+  height: 43px;
+  width: 44px;
+  padding: 8px;
+  font-size: 8px;
+  text-align: center;
+  align-self: center;
+  /* margin: -10px; */
+}
+
+/* .title-pos:not(:last-child)::after {
+  content: "";
+  background: #fff;
+  width: 2px;
+  height: 20px;
+  display: block;
+  position: absolute;
+  left: -40px;
+} */
+
+.line-h {
+  height: 25px;
+  width: 2px;
+  background: #fff;
+  margin: 0 0 0 20px;
+}
+
+.expertise {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.expertise ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
